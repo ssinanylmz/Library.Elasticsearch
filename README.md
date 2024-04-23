@@ -25,17 +25,29 @@ The class library includes a generic repository with the following asynchronous 
 
 ### CRUD Operations
 **GetAllAsync():** Retrieves all documents of a particular type.
+
 **GetByIdAsync(id):** Fetches a document by its unique identifier.
+
 **InsertAsync(document):** Adds a new document to the Elasticsearch index.
+
 **UpdateAsync(document):** Updates an existing document in the index.
+
 **DeleteAsync(id):** Deletes a document by its identifier.
+
 ### Advanced Query Operations
+
 **DeleteByQueryAsync(querySelector):** Deletes documents based on a query.
+
 **BulkInsertAsync(documents):** Performs a bulk insertion of multiple documents.
+
 **GetByTermQueryAsync(querySelector):** Retrieves documents matching a term query.
+
 **GetByQueryAsync(querySelector):** Fetches documents based on a complex query.
+
 **GetByQuerySearchAsync(querySelector):** Executes a search based on a query and returns a search response.
+
 **ExistByTermQueryAsync(querySelector):** Checks if documents exist that match a term query.
+
 **GetMappingInfoAsync(propertyName):** Obtains mapping information for a specific property.
 
 ## Usage
